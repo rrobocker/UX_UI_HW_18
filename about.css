@@ -7,6 +7,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.navigation-navlink {
+  display: contents;
+}
 .navigation-image {
   top: 10px;
   left: 47px;
@@ -14,6 +17,7 @@
   height: 137px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .navigation-container1 {
   flex: 0 0 auto;
@@ -31,9 +35,16 @@
   font-size: 40px;
   align-self: stretch;
   font-style: normal;
+  transition: 0.3s;
   font-family: Mulish;
   font-weight: 600;
   text-decoration: none;
+}
+.navigation-about:hover {
+  color: #68B4C5;
+}
+.navigation-about:active {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
 }
 .navigation-skills-services {
   top: -25px;
@@ -42,8 +53,16 @@
   font-size: 40px;
   align-self: stretch;
   font-style: normal;
+  transition: 0.3s;
   font-family: Mulish;
   font-weight: 600;
+  text-decoration: none;
+}
+.navigation-skills-services:hover {
+  color: #68B4C5 ;
+}
+.navigation-skills-services:active {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
 }
 .navigation-portfolio {
   top: -25px;
@@ -52,8 +71,16 @@
   font-size: 40px;
   align-self: stretch;
   font-style: normal;
+  transition: 0.3s;
   font-family: Mulish;
   font-weight: 600;
+  text-decoration: none;
+}
+.navigation-portfolio:hover {
+  color: #68B4C5;
+}
+.navigation-portfolio:active {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
 }
 .navigation-contact-me {
   top: -25px;
@@ -62,18 +89,52 @@
   font-size: 40px;
   align-self: stretch;
   font-style: normal;
+  transition: 0.3s;
   font-family: Mulish;
   font-weight: 600;
+  text-decoration: none;
 }
-.navigation-root-class-name1 {
-  top: 28px;
-  left: 0px;
-  position: absolute;
+.navigation-contact-me:hover {
+  color: #68B4C5;
+}
+.navigation-contact-me:active {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
 }
 .navigation-root-class-name {
   top: 20px;
   left: 0px;
   position: absolute;
+}
+.navigation-root-class-name1 {
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.navigation-root-class-name2 {
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.navigation-root-class-name3 {
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.navigation-root-class-name4 {
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+@media(max-width: 991px) {
+  .navigation-container {
+    height: 1478px;
+  }
+  .navigation-image {
+    top: 56px;
+    left: 395px;
+    right: 61px;
+    padding-left: 135px;
+  }
 }
 
 .about-container {
@@ -84,6 +145,69 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+}
+.about-button {
+  flex: auto;
+  left: 60px;
+  width: 325px;
+  bottom: 111px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 8px 9px 20px 0px #d4d4d4;
+  transition: 0.3s;
+  font-family: Mulish;
+  border-color: #0f454e;
+  flex-direction: row;
+  background-color: #d1f7ff;
+}
+.about-button:hover {
+  background-color: #68B4C5;
+}
+.about-text {
+  right: 49px;
+  bottom: -13px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.about-text2 {
+  top: 508px;
+  left: 60px;
+  font-size: 60px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+}
+.about-text3 {
+  top: 591px;
+  left: 62px;
+  width: 1000px;
+  position: absolute;
+  font-size: 24px;
+}
+.about-rachel-robocker {
+  top: 372px;
+  left: 60px;
+  position: absolute;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 900;
+}
+.about-container1 {
+  right: 0px;
+  width: 687px;
+  bottom: 0px;
+  height: 658px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D1F7FF;
 }
 .about-image {
   right: 2px;

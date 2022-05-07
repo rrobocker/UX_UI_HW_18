@@ -136,3 +136,139 @@
     padding-left: 135px;
   }
 }
+
+.footer-container {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-link {
+  display: contents;
+}
+.footer-image {
+  top: 0px;
+  left: 60px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+  text-decoration: none;
+}
+.footer-root-class-name {
+  left: 0px;
+  bottom: 20px;
+  position: absolute;
+}
+.footer-root-class-name1 {
+  left: 0px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.contact-me-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contact-me-link {
+  top: 651px;
+  flex: auto;
+  left: 60px;
+  width: 325px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 8px 9px 20px 0px #d4d4d4;
+  transition: 0.3s;
+  font-family: Mulish;
+  border-color: #0f454e;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #d1f7ff;
+}
+.contact-me-link:hover {
+  background-color: #68B4C5;
+}
+.contact-me-text {
+  top: -16px;
+  left: 38px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.contact-me-container1 {
+  right: 0px;
+  width: 687px;
+  bottom: 0px;
+  height: 658px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D1F7FF;
+}
+.contact-me-image {
+  right: 2px;
+  width: 608px;
+  bottom: -1px;
+  height: 738px;
+  position: absolute;
+  max-width: 100%;
+  object-fit: cover;
+}
+.contact-me-rachel-robocker {
+  top: 372px;
+  left: 60px;
+  position: absolute;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 900;
+}
+.contact-me-text2 {
+  top: 499px;
+  left: 60px;
+  position: absolute;
+  font-size: 50px;
+}
+@media(max-width: 479px) {
+  .contact-me-link {
+    top: 725px;
+    left: 48px;
+    width: 388px;
+    height: 88px;
+  }
+  .contact-me-text {
+    top: -20px;
+    left: 60px;
+  }
+  .contact-me-container1 {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .contact-me-image {
+    width: 283px;
+    bottom: 484px;
+    height: 354px;
+    -webkit-min-device-pixel-ratio: 2;
+  }
+  .contact-me-rachel-robocker {
+    font-size: 48px;
+  }
+  .contact-me-text2 {
+    top: 592px;
+    font-size: 30px;
+  }
+}

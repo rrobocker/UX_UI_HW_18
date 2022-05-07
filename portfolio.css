@@ -136,3 +136,140 @@
     padding-left: 135px;
   }
 }
+
+.portfolio-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-rachel-robocker {
+  top: 271px;
+  left: 696px;
+  position: absolute;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 900;
+}
+.portfolio-research-container {
+  left: 131px;
+  width: 463px;
+  bottom: 0px;
+  height: 387px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d1f7ff;
+}
+.portfolio-research {
+  top: 506px;
+  left: 180px;
+  position: absolute;
+  font-size: 50px;
+}
+.portfolio-container1 {
+  left: 745px;
+  width: 463px;
+  bottom: 0px;
+  height: 387px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #68B4C5;
+}
+.portfolio-container2 {
+  right: 100px;
+  width: 463px;
+  bottom: 0px;
+  height: 387px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #d1f7ff;
+}
+.portfolio-design {
+  top: 506px;
+  left: 718px;
+  position: absolute;
+  font-size: 50px;
+}
+.portfolio-design1 {
+  top: 506px;
+  left: 1435px;
+  position: absolute;
+  font-size: 50px;
+}
+.portfolio-image {
+  left: 716px;
+  width: 502px;
+  bottom: 2px;
+  height: 432px;
+  position: absolute;
+  object-fit: cover;
+}
+.portfolio-image1 {
+  left: 230px;
+  width: 296px;
+  bottom: -8px;
+  height: 430px;
+  position: absolute;
+  object-fit: cover;
+}
+.portfolio-image2 {
+  right: 148px;
+  width: 488px;
+  bottom: -2px;
+  height: 386px;
+  position: absolute;
+  object-fit: cover;
+}
+.portfolio-image3 {
+  right: 14px;
+  width: 250px;
+  bottom: -8px;
+  height: 288px;
+  position: absolute;
+  object-fit: cover;
+}
+@media(max-width: 479px) {
+  .portfolio-rachel-robocker {
+    font-size: 48px;
+  }
+  .portfolio-research-container {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .portfolio-research {
+    top: 592px;
+    font-size: 30px;
+  }
+  .portfolio-container1 {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .portfolio-container2 {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .portfolio-design {
+    top: 592px;
+    font-size: 30px;
+  }
+  .portfolio-design1 {
+    top: 592px;
+    font-size: 30px;
+  }
+}

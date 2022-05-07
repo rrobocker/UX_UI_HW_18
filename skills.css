@@ -136,3 +136,134 @@
     padding-left: 135px;
   }
 }
+
+.skills-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.skills-rachel-robocker {
+  top: 271px;
+  left: 646px;
+  position: absolute;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 900;
+}
+.skills-research-container {
+  left: 131px;
+  width: 463px;
+  bottom: 0px;
+  height: 387px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #68B4C5;
+}
+.skills-text {
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.skills-research {
+  top: 506px;
+  left: 246px;
+  position: absolute;
+  font-size: 50px;
+}
+.skills-container1 {
+  left: 745px;
+  width: 463px;
+  bottom: 0px;
+  height: 387px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D1F7FF;
+}
+.skills-text2 {
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.skills-container2 {
+  right: 100px;
+  width: 463px;
+  bottom: 0px;
+  height: 387px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #68B4C5;
+}
+.skills-text3 {
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.skills-design {
+  top: 506px;
+  left: 890px;
+  position: absolute;
+  font-size: 50px;
+}
+.skills-design1 {
+  top: 506px;
+  left: 1475px;
+  position: absolute;
+  font-size: 50px;
+}
+@media(max-width: 479px) {
+  .skills-rachel-robocker {
+    font-size: 48px;
+  }
+  .skills-research-container {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .skills-research {
+    top: 592px;
+    font-size: 30px;
+  }
+  .skills-container1 {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .skills-container2 {
+    width: 478px;
+    bottom: 485px;
+    height: 326px;
+    padding-left: 0px;
+  }
+  .skills-design {
+    top: 592px;
+    font-size: 30px;
+  }
+  .skills-design1 {
+    top: 592px;
+    font-size: 30px;
+  }
+}
