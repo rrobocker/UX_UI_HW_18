@@ -1,0 +1,95 @@
+.navigation-container {
+  width: 100%;
+  height: 158px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.navigation-image {
+  top: 10px;
+  left: 47px;
+  width: 132px;
+  height: 137px;
+  position: absolute;
+  object-fit: cover;
+}
+.navigation-container1 {
+  flex: 0 0 auto;
+  width: 1003px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.navigation-about {
+  top: -25px;
+  left: -25px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navigation-skills-services {
+  top: -25px;
+  left: 169px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.navigation-portfolio {
+  top: -25px;
+  left: 520px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.navigation-contact-me {
+  top: -25px;
+  right: 31px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.navigation-root-class-name1 {
+  top: 28px;
+  left: 0px;
+  position: absolute;
+}
+.navigation-root-class-name {
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-image {
+  right: 2px;
+  width: 608px;
+  bottom: -1px;
+  height: 738px;
+  position: absolute;
+  object-fit: cover;
+}

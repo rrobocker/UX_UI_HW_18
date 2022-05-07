@@ -1,0 +1,160 @@
+.navigation-container {
+  width: 100%;
+  height: 158px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.navigation-image {
+  top: 10px;
+  left: 47px;
+  width: 132px;
+  height: 137px;
+  position: absolute;
+  object-fit: cover;
+}
+.navigation-container1 {
+  flex: 0 0 auto;
+  width: 1003px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.navigation-about {
+  top: -25px;
+  left: -25px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navigation-skills-services {
+  top: -25px;
+  left: 169px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.navigation-portfolio {
+  top: -25px;
+  left: 520px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.navigation-contact-me {
+  top: -25px;
+  right: 31px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Mulish;
+  font-weight: 600;
+}
+.navigation-root-class-name1 {
+  top: 28px;
+  left: 0px;
+  position: absolute;
+}
+.navigation-root-class-name {
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container1 {
+  right: 0px;
+  width: 687px;
+  bottom: 0px;
+  height: 658px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D1F7FF;
+}
+.home-image {
+  right: 2px;
+  width: 608px;
+  bottom: -1px;
+  height: 738px;
+  position: absolute;
+  object-fit: cover;
+}
+.home-rachel-robocker {
+  top: 372px;
+  left: 60px;
+  position: absolute;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 900;
+}
+.home-text {
+  top: 487px;
+  left: 60px;
+  font-size: 60px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+}
+.home-container2 {
+  top: 577px;
+  flex: 0 0 auto;
+  left: 60px;
+  width: 600px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  background-color: #000000;
+}
+.home-button {
+  top: 642px;
+  flex: auto;
+  left: 60px;
+  width: 468px;
+  height: 140px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 8px 9px 20px 0px #d4d4d4;
+  font-family: Mulish;
+  flex-direction: row;
+  background-color: #d1f7ff;
+}
+.home-text1 {
+  top: 8px;
+  left: 70px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text3 {
+  text-align: center;
+}
